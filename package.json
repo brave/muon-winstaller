@@ -1,12 +1,12 @@
 {
-  "name": "electron-winstaller",
-  "version": "2.4.0",
-  "description": "Module to generate Windows installers for Electron apps",
+  "name": "muon-winstaller",
+  "version": "2.4.1",
+  "description": "Module to generate Windows installers for Muon apps (the Brave fork of Electron)",
   "main": "./lib/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/electronjs/windows-installer"
+    "url": "https://github.com/brave/muon-winstaller"
   },
   "scripts": {
     "compile": "babel -d lib/ src/",

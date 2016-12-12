@@ -12,6 +12,7 @@
     <copyright><%- copyright %></copyright>
   </metadata>
   <files>
+    <file src="locales\**" target="lib\net45\locales" />
     <file src="resources\**" target="lib\net45\resources" />
     <file src="*.bin" target="lib\net45" />
     <file src="*.dll" target="lib\net45" />
