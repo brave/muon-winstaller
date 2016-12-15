@@ -1,16 +1,14 @@
-# Electron Installer
-
-[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/nxhep80va4d7afjb/branch/master?svg=true)](https://ci.appveyor.com/project/kevinsawicki/windows-installer/branch/master)
-[![Travis CI Build Status](https://travis-ci.org/electron/windows-installer.svg?branch=master)](https://travis-ci.org/electronjs/windows-installer)
+# Muon Installer
 
 NPM module that builds Windows installers for
-[Electron](https://github.com/atom/electron) apps using
+[Muon](https://github.com/brave/electron) (Brave's fork of [Electron](https://github.com/atom/electron))
+apps using
 [Squirrel](https://github.com/Squirrel/Squirrel.Windows).
 
 ## Installing
 
 ```sh
-npm install --save-dev electron-winstaller
+npm install --save-dev muon-winstaller
 ```
 
 ## Usage
@@ -18,13 +16,13 @@ npm install --save-dev electron-winstaller
 Require the package:
 
 ```js
-var electronInstaller = require('electron-winstaller');
+var muonInstaller = require('muon-winstaller');
 ```
 
 Then do a build like so..
 
 ```js
-resultPromise = electronInstaller.createWindowsInstaller({
+resultPromise = muonInstaller.createWindowsInstaller({
     appDirectory: '/tmp/build/my-app-64',
     outputDirectory: '/tmp/build/installer64',
     authors: 'My App Inc.',
@@ -42,7 +40,7 @@ There are several configuration settings supported:
 
 | Config Name           | Required | Description |
 | --------------------- | -------- | ----------- |
-| `appDirectory`        | Yes      | The folder path of your Electron app |
+| `appDirectory`        | Yes      | The folder path of your Muon app |
 | `outputDirectory`     | No       | The folder path to create the `.exe` installer in. Defaults to the `installer` folder at the project root. |
 | `loadingGif`          | No       | The local path to a `.gif` file to display during install. |
 | `authors`             | Yes      | The authors value for the nuget package metadata. Defaults to the `author` field from your app's package.json file when unspecified. |
