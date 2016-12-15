@@ -1,4 +1,5 @@
 # Muon Installer
+(Originally forked from [electron/windows-installer](https://github.com/electron/windows-installer))
 
 NPM module that builds Windows installers for
 [Muon](https://github.com/brave/electron) (Brave's fork of [Electron](https://github.com/atom/electron))

@@ -1,6 +1,6 @@
 {
   "name": "muon-winstaller",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "description": "Module to generate Windows installers for Muon apps (the Brave fork of Electron)",
   "main": "./lib/index.js",
   "license": "MIT",
