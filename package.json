@@ -1,6 +1,6 @@
 {
-  "name": "electron-winstaller",
-  "version": "2.5.2",
+  "name": "muon-winstaller",
+  "version": "2.5.4",
   "description": "Module to generate Windows installers for Electron apps",
   "main": "./lib/index.js",
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
-    "prepublish": "npm run test && npm run compile",
+    "prepublish": "npm run compile",
     "lint": "eslint src & eslint spec",
     "test": "npm run lint && ava",
     "tdd": "ava --watch"
