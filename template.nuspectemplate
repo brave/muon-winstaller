@@ -14,7 +14,6 @@
   <files>
     <file src="locales\**" target="lib\net45\locales" />
     <file src="resources\**" target="lib\net45\resources" />
-    <file src="WidevineCdm\**" target="lib\net45\WidevineCdm" />
     <file src="*.bin" target="lib\net45" />
     <file src="*.dll" target="lib\net45" />
     <file src="*.pak" target="lib\net45" />
